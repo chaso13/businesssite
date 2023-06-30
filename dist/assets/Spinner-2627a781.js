@@ -1,0 +1,1 @@
+import{j as i}from"./index-23218c54.js";function e(){return i.jsx("div",{style:{height:"100vh",width:"100vw"},children:i.jsx("div",{className:"loadingSpinnerContainer",children:i.jsx("div",{className:"loadingSpinner"})})})}export{e as default};
