@@ -1,5 +1,6 @@
 import { svgPricing, moneyPlant, AwardSVG, ComplexSVG, LightSVG, CopySVG, SeachSVG, StandardSVG, } from '../assets';
 import styles, { layout } from '../style';
+import Accordion from '../components/Accordion/Accordion' ;
 
 
 export default function Pricing() {
@@ -319,7 +320,53 @@ export default function Pricing() {
                         </div>
                     </div>
 
+                     {/* Accordion Section */}
+                    <div className={layout.sectionInfo} >
+                        <div className='py-10 px-10'>
+                            <h2 className='font-crimsonPro text-[40px] font-semibold leading-none'> frequently asked questions </h2>
+                            <h3 className='font-Jost text-[22px] font-medium leading-none'> here are some answers to the questions we get the most.</h3>
+                            <div className=' ml-[-30px] mt-[-70px] w-[2.5rem] h-[2.5rem] bg-[#107bdf] rounded-[100%] z-[-1] absolute flex justify-center items-start whitespace-nowrap'></div>
+                            
+                        </div>
+                        <div className='py-10 px-10'>
+                            <Accordion/>
+                        </div>
+                    </div>
+
+
+                    {/*Final Thoughts*/}
+
+                    <div className='py-[10vh]'>
+                    <div className='flex flex-row justify-center items-center w-full'>
+                    <h2 className=' text-[40px] flex justify-center font-crimsonPro leading-none font-semibold'> final thoughts on pricing </h2>
+                    <div className=' ml-[0px] mt-[0px] w-[6rem] h-[6rem] bg-[#107bdf] rounded-[100%] z-[-1] absolute flex justify-center items-start whitespace-nowrap'></div>
+                    </div>
+
+                    <div className='flex flex-col justify-center px-[10vw]'>
+                        <p className='max-w-[980px] mt-10 flex text-justify text-[18px] font-Jost'>
+                        At Web Ambrosia, we prioritize the establishment of strong connections with our clients. We view this as more than a mere transaction; it is a partnership founded on clear, open communication, and mutual respect. Our dedication lies not only in upholding these principles throughout our entire process but also in ensuring that our clients feel heard, valued, and engaged at every step.
+                        
+                        <br/>
+                    
+                        The significance of all these elements cannot be emphasized enough. A website is not simply a digital brochure; it is a dynamic platform that reflects your brand, engages your audience, and propels your business towards its objectives. It is a versatile tool crafted to adapt, evolve, and grow alongside your business, delivering concrete results for years to come.
+                    
+                        <br/>
+                    
+                        When you choose to collaborate with Web Ambrosia, you are not just purchasing a product. You are making an investment in a comprehensive, strategic solution tailored to aid your business in succeeding within the ever-evolving digital landscape. Our pricing reflects our unwavering commitment to quality, expertise, and the unique value we offer.
+                        
+                        <br/>
+                    
+                        While our costs may exceed those of other agencies, we have confidence that the return on your investment with us will far surpass the price. We are dedicated to providing you with more than just a service—we are here to deliver results.
+                    
+                        <br/>
+                        
+                        Ultimately, our mission is to help your business flourish. We firmly believe in the value we bring, and we are enthusiastic about demonstrating how our expertise can revolutionize your digital presence.
+                        </p>
+                    </div>
                 </div>
+
+
+            </div>
             </div>
 
         </section>
