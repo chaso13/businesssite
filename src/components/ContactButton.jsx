@@ -16,7 +16,7 @@ const ContactButton = () => {
       className={
         toggle ?
           `${styles.flexCenter} cursor-pointer rounded h-[465px] w-[465px] bg-[#000000] fixed bottom-6 right-6 z-10 content-center` :
-          `${styles.flexCenter} cursor-pointer rounded-full h-[65px] w-[65px] bg-[#3C1D97] fixed bottom-6 right-6 z-10 content-center`
+          `${styles.flexCenter} cursor-pointer rounded-full h-[65px] w-[65px] bg-[#117BDF] fixed bottom-6 right-6 z-10 content-center`
       }
     >
       <div className='fill-white'>

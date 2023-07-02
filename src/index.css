@@ -91,6 +91,19 @@
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+/* activate toggle for accordion */
+
+.answer_wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
+}
+.answer_wrapper.open {
+  height: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);

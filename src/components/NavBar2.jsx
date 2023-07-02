@@ -14,7 +14,7 @@ export default function NavBar2() {
                 <div className="flex flex-row h-[45px] px-5 justify-between ">
                     <div className="">
                         <a className="" href="/" target="_self">
-                            <img alt="" src="https://thrive.design/wp-content/uploads/2022/02/Thrive.svg" className="h-full" srcSet="" sizes="(max-width: 0px) 100vw, 0px" />
+                            Web Ambrosia
                         </a>
                     </div>
                     <div class=""></div>
