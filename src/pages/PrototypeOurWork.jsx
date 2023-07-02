@@ -1,5 +1,5 @@
 import React from 'react'
-import { svgPricing, moneyPlant, AwardSVG, ComplexSVG, LightSVG, CopySVG, SeachSVG, StandardSVG, } from '../assets';
+import { svgPricing, moneyPlant, AwardSVG, ComplexSVG, LightSVG, CopySVG, SearchSVG, StandardSVG, } from '../assets';
 import styles, { layout } from '../style';
 import WorkCard from './WorkCard';
 import HeroDivider from '../assets/hero-divider.svg'
