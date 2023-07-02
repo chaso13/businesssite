@@ -1,4 +1,4 @@
-import { svgPricing, moneyPlant, AwardSVG, ComplexSVG, LightSVG, CopySVG, SeachSVG, StandardSVG, } from '../assets';
+import { svgPricing, moneyPlant, AwardSVG, ComplexSVG, LightSVG, CopySVG, SearchSVG, StandardSVG, } from '../assets';
 import styles, { layout } from '../style';
 import Accordion from '../components/Accordion/Accordion' ;
 
@@ -194,7 +194,7 @@ export default function Pricing() {
 
                         <div className='py-10 px-10'>
                             <div className={layout.sectionImgReverse}>
-                                <img src={SeachSVG} alt='SEO' className='max-w-[100%] height-[150px] relative z-[5]' />
+                                <img src={SearchSVG} alt='SEO' className='max-w-[100%] height-[150px] relative z-[5]' />
                                 <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient' />
                                 <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient' />
                             </div>

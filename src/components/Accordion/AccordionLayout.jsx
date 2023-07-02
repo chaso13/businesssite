@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
-  const handleSetIndex = (index) => (activeIndex !== index) && setActiveIndex(index);
+const handleSetIndex = (index) => (activeIndex !== index) && setActiveIndex(index);
 
   return (
     <>
