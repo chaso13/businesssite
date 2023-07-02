@@ -84,7 +84,7 @@ export default function Pricing() {
 
                             <div className='text-center'>
                                 <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro `}> Branding</h2>
-                                <p className={`font-Jost font-light text-[18px] max-w-[470px] mt-5 text-justify`}>
+                                <p className={`font-Jost font-light text-[18px] max-w-[470px] mt-5 text-justify xs:`}>
                                     Your brand encompasses so much more than a mere logo. It embodies your true essence, your powerful message, and the irresistible appeal that draws visitors to collaborate with you. Luckily, our team excels at capturing and conveying that essence flawlessly. Our basic package, which includes strategy, logo design, and a comprehensive style guide, starts at $10k. However, pricing may increase based on the level of strategy and additional assets required.
                                 </p>
                                 <div className='font-Jost font-semibold text-[18px] py-5 '>
@@ -231,7 +231,7 @@ export default function Pricing() {
 
                     {/* Why Grid Section Start 3x2*/}
                     {/*Grid Row 1 md:*/}
-                    <div className='flex md:flex-row flex-col justify-center gap-11'>
+                    <div className='flex md:flex-row flex-col justify-center gap-11 xs:px-[12vw]  md:px-[0vw]'>
                         {/* Experience grid item */}
                         <div className='py-10 px-10'>
                             <div className={`text-center`}>
@@ -262,7 +262,7 @@ export default function Pricing() {
 
                     </div>
                     {/*Grid Row 2 md:*/}
-                    <div className='flex md:flex-row flex-col justify-center gap-11'>
+                    <div className='flex md:flex-row flex-col justify-center gap-11 xs:px-[12vw] md:px-[0vw]'>
                         {/* Maximum Effort grid item */}
                         <div className='py-10 px-10'>
                             <div className={`text-center`}>

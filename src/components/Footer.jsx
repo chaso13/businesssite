@@ -8,13 +8,13 @@ export default function Footer2() {
                 <div id="new_columns-256-26" class="ct-new-columns flex flex-row ">
                     <div id="div_block-257-26" class="ct-div-block w-[40%] pr-[10%] py-[20px] pl-[20px] ">
                         <a id="link-261-26" class="ct-link " href="/" target="_self">
-                            <img id="image-262-26" alt="" src="https://thrive.design/wp-content/uploads/2022/02/Thrive.svg" class="ct-image h-[45px] mb-[20px] " />
+                            Web Ambrosia
                         </a>
                         <div id="text_block-263-26" class="ct-text-block">
-                            <b>Thrive is a Seattle web design company focused on helping you grow. </b>
+                            <b>Web Ambrosia is an Albany NY, web design company focused on helping you grow. </b>
                             If you believe in what you do, have a proven offer, and would like to increase your online presence and authority, let’s chat.
                         </div>
-                        <a id="link-266-26" class="ct-link button flex flex-row mt-[20px] group " href="https://thrive.design/contact-us/">
+                        <a id="link-266-26" class="ct-link button flex flex-row mt-[20px] group " >
                             <div id="text_block-267-26" class="ct-text-block button-label">
                                 General Inquiry
                             </div>
@@ -224,10 +224,10 @@ export default function Footer2() {
                             ©
                         </div>
                         <div id="code_block-60-108" className="">
-                            2002 - 2023
+                            2018 - 2023 
                         </div>
                         <div id="text_block-59-108" className="">
-                            Thrive | All Rights Reserved
+                             Web Ambrosia | All Rights Reserved
                         </div>
                     </div>
                     <div className="flex flex-row ">
@@ -244,7 +244,7 @@ export default function Footer2() {
                         </Link>
                         <div className="mx-[10px]">|</div>
                         <div id="text_block-334-26" class="ct-text-block">
-                            Made with ❤ by Thrive
+                            Made with ❤ by Web Ambrosia
                         </div>
                     </div>
                 </div>
