@@ -1,16 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Intro from '../sections/Universal/Intro'
-import ScrollForMore from '../sections/Universal/ScrollForMore'
-import DigitalPresenceMatters from '../sections/WebDesign/DigitalPresenceMatters'
-import WebsitesAreAssets from '../sections/WebDesign/WebsitesAreAssets'
-import HowItWorks from '../sections/WebDesign/HowItWorks'
-import Scroll from '../sections/WebDesign/Scroll'
-import DontLeaveItToChance from '../sections/WebDesign/DontLeaveItToChance'
-import TheBasics from '../sections/WebDesign/TheBasics'
-import ScrollTwo from '../sections/WebDesign/ScrollTwo'
-import FAQ from '../sections/WebDesign/FAQ'
-import Ready from '../sections/Universal/Ready'
+
+import loadable from '@loadable/component'
+const Intro = loadable(() => import('../sections/Universal/Intro'))
+const ScrollForMore = loadable(() => import('../sections/Universal/ScrollForMore'))
+const DigitalPresenceMatters = loadable(() => import('../sections/WebDesign/DigitalPresenceMatters'))
+const WebsitesAreAssets = loadable(() => import('../sections/WebDesign/WebsitesAreAssets'))
+const HowItWorks = loadable(() => import('../sections/WebDesign/HowItWorks'))
+const Scroll = loadable(() => import('../sections/WebDesign/Scroll'))
+const DontLeaveItToChance = loadable(() => import('../sections/WebDesign/DontLeaveItToChance'))
+const TheBasics = loadable(() => import('../sections/WebDesign/TheBasics'))
+const ScrollTwo = loadable(() => import('../sections/WebDesign/ScrollTwo'))
+const FAQ = loadable(() => import('../sections/WebDesign/FAQ'))
+const Ready = loadable(() => import('../sections/Universal/Ready'))
 
 export default function WebDesign() {
     return (

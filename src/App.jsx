@@ -9,6 +9,10 @@ import Proto from './pages/PrototypeOurWork';
 import ContactUs from './pages/ContactUs';
 import WebDesign from './pages/WebDesign';
 import AboutUs from './pages/AboutUs';
+import Branding from './pages/Branding';
+import SearchEngineOptimization from './pages/SearchEngineOptimization';
+import BackendSupport from './pages/BackendSupport';
+import CarePlans from './pages/CarePlans';
 
 const Footer = loadable(() => import('./components/Footer'))
 const ContactButton = loadable(() => import('./components/ContactButton'))
@@ -29,33 +33,24 @@ function App() {
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
-
               <Route path="/about-us/" element={<AboutUs />} />
-
               <Route path="/web-design/" element={<WebDesign />} />
-              <Route path="/branding/" element={<Proto />} />
-              <Route path="/search-engine-optimization/" element={<Proto />} />
-              <Route path="/backend-support/" element={<Proto />} />
-              <Route path="/website-maintainence/" element={<Proto />} />
+              <Route path="/branding/" element={<Branding />} />
+              <Route path="/search-engine-optimization/" element={<SearchEngineOptimization />} />
+              <Route path="/contact-us/" element={<ContactUs />} />
+              <Route path="/price-guide/" element={<Pricing/>} />
+              <Route path="/backend-support/" element={<BackendSupport />} />
+              <Route path="/care-plans/" element={<CarePlans />} />
 
               <Route path="/blueprint/" element={<Proto />} />
               <Route path="/case-studies/" element={<Proto />} />
               <Route path="/blog/" element={<Proto />} />
               <Route path="/web-ambrosia-client-support/" element={<Proto />} />
-
-
-
               <Route path="/case-studies/" element={<Proto />} />
               <Route path="/case-studies/:id" element={<WorkItem />} />
-              <Route path="/price-guide/" element={<Pricing/>} />
-
-              <Route path="/contact-us/" element={<ContactUs />} />
-
-
               <Route path="/privacy-policy/" element={<Proto />} />
               <Route path="/terms-of-service/" element={<Proto />} />
               <Route path="/accessibility-statement/" element={<Proto />} />
-
               <Route path="/start-a-project/" element={<Proto />} />
 
             </Routes>
