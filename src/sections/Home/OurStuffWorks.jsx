@@ -10,7 +10,7 @@ export default function OurStuffWorks() {
         <h2 className="font-semibold z-10 relative text-[42px]  ">
           and it isn't just us that thinks so
         </h2>
-        <div className="preheadred h-[40px] w-[40px] left-[470px] bottom-[30px] bg-[#ec4176] relative rounded-[100%] z-0 "></div>
+        <div className="preheadred h-[40px] w-[40px] left-[470px] bottom-[30px] bg-[#117BDF] relative rounded-[100%] z-0 "></div>
       </div>
     </div>
   )

@@ -5,10 +5,10 @@ export default function Footer2() {
     return (
         <section id="section-254-26" class=" ct-section">
             <div class="ct-section-inner-wrap px-[20px] pb-[30px] pt-[120px] ">
-                <div id="new_columns-256-26" class="ct-new-columns flex flex-row ">
-                    <div id="div_block-257-26" class="ct-div-block w-[40%] pr-[10%] py-[20px] pl-[20px] ">
-                        <a id="link-261-26" class="ct-link " href="/" target="_self">
-                            Web Ambrosia
+                <div id="new_columns-256-26" class="ct-new-columns flex md:flex-row flex-col ">
+                    <div id="div_block-257-26" class="ct-div-block md:w-[40%] w-[100%] pr-[10%] py-[20px] pl-[20px] ">
+                    <a className="flex flex-row" href="/" target="_self">
+                        <h1 className="font-crimsonPro text-[45px] leading-[45px]  font-extrabold">webambrosia</h1><h1 className="text-[#107bdf] font-crimsonPro text-[65px] leading-[35px] font-extrabold">.</h1>
                         </a>
                         <div id="text_block-263-26" class="ct-text-block">
                             <b>Web Ambrosia is an Albany NY, web design company focused on helping you grow. </b>
@@ -73,7 +73,7 @@ export default function Footer2() {
                             </a>
                         </div>
                     </div>
-                    <div className="w-[20%] p-[20px] flex flex-col justify-end ">
+                    <div className="md:w-[20%] w-[100%] p-[20px] flex flex-col justify-end ">
                         <h4 className="mb-[20px] font-crimsonPro text-[22px] ">
                             get in touch
                         </h4>
@@ -110,7 +110,7 @@ export default function Footer2() {
                             </a>
                         </div>
                     </div>
-                    <div className="w-[20%] p-[20px] flex flex-col justify-end ">
+                    <div className="md:w-[20%] w-[100%] p-[20px] flex flex-col justify-end ">
                         <h4 className="mb-[20px] font-crimsonPro text-[22px] ">
                             links
                         </h4>
@@ -155,7 +155,7 @@ export default function Footer2() {
                             </div>
                         </nav>
                     </div>
-                    <div className="w-[20%] p-[20px] flex flex-col justify-end ">
+                    <div className="md:w-[20%] w-[100%] p-[20px] flex flex-col justify-end ">
                         <h4 className="mb-[20px] font-crimsonPro text-[22px] ">
                             services
                         </h4>
@@ -218,7 +218,7 @@ export default function Footer2() {
                         transition: 'unset',
                         transform: 'translate(29.3332%, 14.6666%) translate3d(0px, 0px, 0px)'
                     }}></div>
-                <div id="div_block-329-26" className="flex flex-row justify-between mt-[30px] ">
+                <div id="div_block-329-26" className="flex md:flex-row flex-col justify-between mt-[30px] ">
                     <div id="div_block-56-108" className="flex flex-row ">
                         <div id="text_block-330-26" className="">
                             ©

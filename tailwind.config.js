@@ -5,6 +5,50 @@ export default {
   theme: {
     extend: {
       keyframes: {
+        hamburger: {
+          '0%': {
+            transform: 'translateY(40%)',
+
+          },
+
+          '30%': {
+            transform: 'translateY(0px)',
+            opacity: '1'
+          },
+
+          '100%': {
+            bottom: '0',
+            transform: 'rotate(-90deg)',
+          }
+        },
+        hamburgerBefore: {
+          '0%': {
+            transform: 'translateY(40%)',
+          },
+          '30%': {
+            transform: 'translateY(0px)',
+            opacity: '1'
+          },
+          '100%': {
+            transform: 'translateY(0px)',
+            opacity: '1'
+          }
+        },
+        hamburgerAfter: {
+          '0%': {
+            transform: 'translateY(40%)',
+          },
+
+          '30%': {
+            transform: 'translateY(0px)',
+            opacity: '1'
+          },
+
+          '100%': {
+            transform: 'translateY(0px)',
+            opacity: '1'
+          }
+        },
         progress: {
           '0%': {
             strokeDasharray: '0 100'
@@ -129,6 +173,9 @@ export default {
         'fade-in': 'fadeIn 2s ease-in',
         'floater': 'floater 9s ease-in-out infinite'
 
+      },
+      boxShadow: {
+        "2xl": "-40px 0px 30px 0px rgb(1 1 1 / 0.2)"
       },
       colors: {
         primary: "#00040f",

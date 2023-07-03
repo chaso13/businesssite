@@ -1,5 +1,13 @@
 import { Link } from 'react-router-dom'
 
+
+import ConnectorLeft from '../assets/connectors/Home_One.svg'
+import ConnectorRight from '../assets/connectors/Home-Two.svg'
+
+import Rocket from '../assets/Rocket.svg'
+import ChessPiece from '../assets/ChessPiece.svg'
+import LightBulb from '../assets/Light-Bulb.svg'
+
 import loadable from '@loadable/component'
 const ScrollToSeeHow = loadable(() => import('../sections/Universal/ScrollToSeeHow'))
 const OurStuffWorks = loadable(() => import('../sections/Home/OurStuffWorks'))
@@ -7,10 +15,9 @@ const ShortConnector = loadable(() => import('../sections/Home/ShortConnector'))
 const LogoBanner = loadable(() => import('../sections/Home/LogoBanner'))
 const CaseStudiesBanner = loadable(() => import('../sections/Home/CaseStudiesBanner'))
 const CaseStudiesCarousel = loadable(() => import('../sections/Home/CaseStudiesCarousel'))
-const WhatWeActuallyDo = loadable(() => import('../sections/Home/WhatWeActuallyDo'))
+const WhatWeActuallyDo = loadable(() => import('../sections/Home/WhatWeActuallyDo/WhatWeActuallyDo'))
 const WhoAreWe = loadable(() => import('../sections/Home/WhoAreWe'))
 const AboveReady = loadable(() => import('../sections/Home/AboveReady'))
-const VideoSection = loadable(() => import('../sections/Home/VideoSection'))
 const ScrollForMore = loadable(() => import('../sections/Universal/ScrollForMore'))
 const Footer2 = loadable(() => import('../components/Footer2'))
 const Ready = loadable(() => import('../sections/Universal/Ready'))
@@ -24,16 +31,11 @@ export default function Home() {
       <HomeTop />
       <ScrollForMore />
       <WhyWebAmbrosia />
-      <VideoSection />
-      <ScrollToSeeHow />
-      <div class="py-[120px]">
-        <div class="grid grid-cols-4 justify-center items-center mb-[120px] ">
-        <div class="items-center flex flex-col p-[20px] h-[100%] "></div>
-          <div className=" items-center text-center p-[20px] relative ">
-            <img alt="" src="https://thrive.design/wp-content/uploads/2022/02/connector1.svg" class="ct-image right-[-10%] bottom-[-800%] absolute" />
-          </div>
+      <div class="py-[120px] max-w-[100vw] ">
+        <div class="sm:grid sm:grid-cols-4 flex flex-col-reverse justify-center items-center mb-[120px] ">
+        <div class="items-center sm:flex flex-col p-[20px] h-[100%] hidden"></div>
           <div class="items-center flex flex-col p-[20px] ">
-            <img alt="" src="https://thrive.design/wp-content/uploads/2022/02/strategy.svg" className="mb-[20px] " />
+            <img alt="" src={ChessPiece} className="mb-[20px] " />
             <h3 className="mb-[20px] text-[32px] font-crimsonPro font-extralight">
               first we plan
             </h3>
@@ -43,12 +45,18 @@ export default function Home() {
               outcomes you really want to happen.
             </div>
           </div>
-          <div className="p-[20px] h-[100%] "></div>
+          <div className=" items-center text-center p-[20px] relative ">
+            <img alt="" src={ConnectorRight} class="ct-image right-[-10%] bottom-[-800%] absolute" />
+          </div>
+          <div className="p-[20px] h-[100%] sm:flex hidden"></div>
         </div>
         <div className="grid grid-cols-4 mb-[120px] ">
-          <div className=""></div>
+          <div className="sm:flex hidden"></div>
+          <div className=" items-center text-center p-[20px] relative ">
+            <img id="image-56-119" alt="" src={ConnectorLeft} class="absolute left-[-12%] top-[20%]  " />
+          </div>
           <div class="items-center flex flex-col p-[20px] ">
-            <img alt="" src="https://thrive.design/wp-content/uploads/2022/02/idea.svg" className="mb-[20px] " />
+            <img alt="" src={LightBulb} className="mb-[20px] " />
             <h3 className="mb-[20px] text-[32px] font-crimsonPro font-extralight">
               then we create
             </h3>
@@ -58,16 +66,13 @@ export default function Home() {
               successful outcome.
             </div>
           </div>
-          <div className=" items-center text-center p-[20px] relative ">
-            <img id="image-56-119" alt="" src="https://thrive.design/wp-content/uploads/2022/02/connector2.svg" class="absolute left-[-12%] top-[20%]  " />
-          </div>
-          <div id="div_block-57-119" class="ct-div-block"></div>
+          <div id="div_block-57-119" class="ct-div-block sm:flex hidden"></div>
         </div>
         <div id="new_columns-58-119" class="ct-new-columns grid grid-cols-4">
           <div id="div_block-59-119" class="ct-div-block"></div>
           <div id="div_block-60-119" class="ct-div-block"></div>
           <div class="items-center flex flex-col p-[20px] ">
-            <img id="image-62-119" alt="" src="https://thrive.design/wp-content/uploads/2022/02/grow.svg" className="mb-[20px] " />
+            <img id="image-62-119" alt="" src={Rocket} className="mb-[20px] " />
             <h3 className="mb-[20px] text-[32px] font-crimsonPro font-extralight">
               so you grow!
             </h3>
@@ -90,13 +95,10 @@ export default function Home() {
           </div>
           <div id="div_block-68-119" class="ct-div-block"></div>
         </div>
-        <div id="div_block-69-119" class="ct-div-block bigrightcircle motion-small w-[35px] h-[35px] "
-          style={{ translate: 'none', rotate: 'none', scale: 'none', transition: 'unset', transform: 'translate(-13.968%, 6.984%) translate3d(0px, 0px, 0px)' }}></div>
-        <div id="div_block-70-119" class="ct-div-block bigleftcircle motion-medium"
-          style={{ translate: 'none', rotate: 'none', scale: 'none', transition: 'unset', transform: 'translate(13.968%, -13.968%) translate3d(0px, 0px, 0px)' }}></div>
+        <div className='absolute z-[9]  h-[35vh]  rounded-[100%] bg-[#107bdf22] md:top-[185%] top-[1950px] right-0 md:ml-[5vw] animate-floater aspect-square' />
+        <div className='absolute z-[9]  h-[25vh]  rounded-[100%] bg-[#107bdf22] top-[370%] left-[-6vw] md:ml-[5vw] animate-floater aspect-square' />
       </div>
       <OurStuffWorks />
-      <LogoBanner />
       <ShortConnector />
       <CaseStudiesBanner />
       <CaseStudiesCarousel />
@@ -104,7 +106,6 @@ export default function Home() {
       <WhoAreWe />
       <AboveReady />
       <Ready />
-      <Footer2 />
     </div>
   )
 }

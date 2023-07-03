@@ -1,13 +1,15 @@
 import React from 'react'
 
+import HomeTeam from '../../assets/HomeTeam.svg'
+
 export default function AboveReady() {
     return (
         <div className="px-[40px] pb-[120px]">
-            <div className="w-[90%] mx-[auto] flex flex-row items-center">
-                <div className="w-[40%] p-[20px] min-h-[350px] justify-center">
-                    <img alt="" src="https://thrive.design/wp-content/uploads/2022/02/Blog-Hero-Graphic.svg" className="" />
+            <div className="w-[90%] mx-[auto] flex lg:flex-row flex-col items-center">
+                <div className="flex md:w-[100%] lg:w-[40%] p-[20px] min-h-[350px] justify-center">
+                    <img alt="" src={HomeTeam} className="" />
                 </div>
-                <div className="w-[60%] p-[40px] ">
+                <div className="flex flex-col md:w-[100%] lg:w-[60%] p-[40px] ">
                     <div className="">
                         <p className="font-extralight mb-[18px] ">
                             We're a Seattle based Web Design agency that focuses on helping

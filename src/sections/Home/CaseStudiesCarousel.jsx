@@ -2,29 +2,19 @@ import React from 'react'
 
 export default function CaseStudiesCarousel() {
     return (
-        <section id="section-98-119" class=" ct-section ">
-            <div class="ct-section-inner-wrap">
-                <div id="div_block-99-119" class="ct-div-block">
+        <section class=" ct-section max-w-[100vw] overflow-hidden">
+            <div class="ct-section-inner-wrap pt-[20px] pb-[90px]">
+                <div id="div_block-99-119" class="ct-div-block mt-[20px] w-[80%] ml-[20%]">
                     <div id="-carousel-builder-100-119" class="oxy-carousel-builder ">
                         <div class="oxy-carousel-builder_inner oxy-inner-content" data-prev=".prev-btn" data-next=".next-btn" data-contain="true" data-percent="true" data-freescroll="false" data-draggable="true" data-wraparound="false" data-carousel=".oxy-dynamic-list" data-cell="" data-dragthreshold="3" data-selectedattraction="0.025" data-friction="0.28" data-freescrollfriction="0.075" data-forceheight="false" data-fade="false" data-tickerpause="true" data-groupcells="1" data-autoplay="0" data-pauseautoplay="true" data-hash="false" data-initial="1" data-accessibility="true" data-cellalign="center" data-righttoleft="false" data-images-loaded="true" data-pagedots="false" data-trigger-aos="false" data-clickselect="false" data-parallaxbg="false" data-bgspeed="5" data-tick="false">
                             <div id="_dynamic_list-101-119" class="oxy-dynamic-list flickity-enabled is-draggable flickity-resize" tabindex="0">
-                                <div class="oxy-repeater-pages-wrap">
-                                    <div class="oxy-repeater-pages">
-                                        <span aria-current="page" class="page-numbers current">1</span>
-                                        <a class="page-numbers" href="https://thrive.design/page/2/">2</a>
-                                        <a class="page-numbers" href="https://thrive.design/page/3/">3</a>
-                                        <a class="next page-numbers" href="https://thrive.design/page/2/">
-                                            Next »
-                                        </a>
-                                    </div>
-                                </div>
                                 <div class="flickity-viewport" style={{ height: '447.586px', touchAction: 'pan-y' }}>
                                     <div class="flickity-slider" style={{ left: '0px', transform: 'translateX(0%)' }}>
-                                        <div id="div_block-102-119-1" class="ct-div-block is-selected" data-id="div_block-102-119" style={{ position: 'absolute', left: '0%' }}>
-                                            <a id="link-103-119-1" class="ct-link" href="https://thrive.design/case-studies/berg-benefits/" target="_self" data-id="link-103-119">
+                                        <div className=" w-[400px]" data-id="div_block-102-119" style={{ position: 'absolute', left: '0%' }}>
+                                            <a id="link-103-119-1" class="flex w-[400px] h-[300px] " href="https://thrive.design/case-studies/berg-benefits/" target="_self" data-id="link-103-119">
                                                 <div id="div_block-202-119-1" class="ct-div-block" data-id="div_block-202-119">
                                                     <div id="div_block-104-119-1" class="ct-div-block" style={{ backgroundImage: 'url(https://thrive.design/wp-content/uploads/2023/05/BergBenefits-62-1024x683-1.jpg)', backgroundSize: 'cover' }} data-id="div_block-104-119"></div>
-                                                    <h3 id="headline-106-119-1" class="ct-headline" data-id="headline-106-119">
+                                                    <h3 id="headline-106-119-1" class="ct-headline flex relative bottom-[3%]" data-id="headline-106-119">
                                                         <span id="span-107-119-1" class="ct-span" data-id="span-107-119">
                                                             Berg Benefits
                                                         </span>
@@ -36,7 +26,7 @@ export default function CaseStudiesCarousel() {
                                                     Reinventing the digital presence of a PNW based insurance brokerage.
                                                 </span>
                                             </div>
-                                            <a id="link-215-119-1" class="ct-link button" href="https://thrive.design/case-studies/berg-benefits/" target="_self" data-id="link-215-119">
+                                            <a id="link-215-119-1" class="ct-link button flex flex-row" href="https://thrive.design/case-studies/berg-benefits/" target="_self" data-id="link-215-119">
                                                 <div id="text_block-216-119-1" class="ct-text-block button-label" data-id="text_block-216-119">
                                                     Read this
                                                 </div>

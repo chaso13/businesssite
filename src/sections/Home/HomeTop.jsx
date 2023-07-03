@@ -4,20 +4,26 @@ import { svgPricing } from '../../assets'
 
 export default function HomeTop() {
   return (
-    <section className="mb-[10vh] ">
+    <section className="mb-[10vh] z-[99] max-w-[100vw]">
       <div className={``}>
         <div className={`${styles.boxWidth}`}>
-          <div className='flex md:flex-row flex-col pb-[10vh]'>
-            <div className={`flex-1 flex-col pl-[80px] py-10 z-[10] min-h-[100vh] pt-[120px]`}>
-              <div className='flex flex-col justify-center items-center w-full p-[20px] '>
-                <h1 className='flex-1 font-crimsonPro font-semibold ss:text-[64px] leading-[64px] text-[4.5rem] weight text-primary animate-fade-in'>
-                  we’re a process driven seattle web design agency that will help your business thrive
+          <div className='flex md:flex-row flex-col-reverse pb-[10vh]'>
+            <div className={`${layout.sectionImgReverse} pb-[10px] md:w-[40vw] sm:w-[60vw] sm:right-[40px] right-auto w-[70vw]`}>
+              <img src={svgPricing} alt='budget' className='w-[75%] md:ml-[10vw] relative z-[5]' />
+              <div className='absolute z-[9]  md:h-[60%] lg:h-[77%]  rounded-[100%] bg-[#107bdf22] left-0 right-0 md:ml-[5vw] animate-floater aspect-square' />
+            </div>
+            <div className={`flex-1 flex-col sm:pl-[80px] pl-[20px] py-10 z-[10] min-h-[100vh] sm:pt-[55px] pt-[35px]`}>
+              <div className='flex flex-col justify-center items-center w-full p-[20px]'>
+                <h1 className='flex-1 font-crimsonPro font-semibold ss:text-[64px] ss:leading-[64px] sm:text-[4.5rem] sm:leading-[4.5rem] leading-[52px] text-[52px] weight text-primary animate-fade-in'>
+                  we’re a process driven albany web design agency that will help your business thrive
                 </h1>
                 <a id="link-94-117" class="ct-link button flex flex-row self-baseline mt-[20px]  group" href="https://thrive.design/start-a-project/" target="_self">
                   <div id="text_block-95-117" class="ct-text-block button-label">
-                    <span id="span-103-117" class="ct-span">
-                      Start a project
-                    </span>
+                  <div style={{ background: 'linear-gradient(to right, #107bdf 50%, #000000 50%)', backgroundSize: '200% 100%', backgroundPosition: '100%', WebkitBackgroundClip: 'text' }} className="  flex mr-[30px] text-[24px] font-medium bg-origin-padding bg-clip-text static  group-hover:animate-fill-text ">
+                  <span to="/case-studies/" className="" style={{ WebkitTextFillColor: 'transparent', color: 'transparent' }}>
+                        start a project
+                      </span>
+                    </div>
                   </div>
                   <div id="code_block-96-117" class="ct-code-block arrow-icon ml-[20px] hover h-[29px] w-[29px] scale-150 translate-y-[-3px] ">
                     <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,14 +33,10 @@ export default function HomeTop() {
                   </div>
                 </a>
               </div>
-              <div className=' ml-[-10px] mt-[200px] w-[3rem] h-[3rem] bg-[#107bdf] rounded-[100%] z-[-1] absolute flex justify-center items-start whitespace-nowrap'></div>
-              <p className={` pl-[20px] font-Jost text-[22px] max-w-[470px] text-primary pt-[160px] pb-[10px] animate-fade-in inline-block font-semibold`}>
+              <div className=' ml-[-10px] sm:mt-[200px] mt-[160px] w-[3rem] h-[3rem] bg-[#107bdf] rounded-[100%] z-[-1] absolute flex justify-center items-start whitespace-nowrap'></div>
+              <p className={` sm:ml-[0px] ml-[20px] pl-[20px] font-Jost text-[20px] leading-[28px] sm:max-w-[470px] max-w-[60vw] text-primary sm:pt-[160px] pt-[60px] pb-[10px] animate-fade-in inline-block font-semibold`}>
                 our processes and our people work together to deliver the best results possible
               </p>
-            </div>
-            <div className={`${layout.sectionImgReverse} pb-[10px]`}>
-              <img src={svgPricing} alt='budget' className='w-[75%] md:ml-[10vw] relative z-[5]' />
-              <div className='absolute z-[9]  md:h-[60%] lg:h-[77%]  rounded-[100%] bg-[#107bdf22] left-0 right-0 md:ml-[5vw] animate-floater aspect-square' />
             </div>
           </div>
         </div>

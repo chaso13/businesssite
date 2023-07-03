@@ -1,21 +1,22 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import loadable from '@loadable/component'
 import CacheBuster from 'react-cache-buster'
-import { Home, WorkItem, Pricing } from './pages';
 import { Navbar } from './components';
 import { HelmetProvider } from 'react-helmet-async'
 import { version } from '../package.json'
-import Proto from './pages/PrototypeOurWork';
-import ContactUs from './pages/ContactUs';
-import WebDesign from './pages/WebDesign';
-import AboutUs from './pages/AboutUs';
-import Branding from './pages/Branding';
-import SearchEngineOptimization from './pages/SearchEngineOptimization';
-import BackendSupport from './pages/BackendSupport';
-import CarePlans from './pages/CarePlans';
-
+import Home from './pages/Home'
+import loadable from '@loadable/component'
+const Pricing = loadable(() => import('./pages/Pricing'))
+const WorkItem = loadable(() => import('./pages/WorkItem'))
+const Proto = loadable(() => import('./pages/PrototypeOurWork'))
+const ContactUs = loadable(() => import('./pages/ContactUs'))
+const WebDesign = loadable(() => import('./pages/WebDesign'))
+const AboutUs = loadable(() => import('./pages/AboutUs'))
+const Branding = loadable(() => import('./pages/Branding'))
+const SearchEngineOptimization = loadable(() => import('./pages/SearchEngineOptimization'))
+const BackendSupport = loadable(() => import('./pages/BackendSupport'))
+const CarePlans = loadable(() => import('./pages/CarePlans'))
 const Footer = loadable(() => import('./components/Footer'))
-const ContactButton = loadable(() => import('./components/ContactButton'))
+const ContactButton = loadable(() => import('./components/Universal/ContactButton/ContactButton'))
 const Spinner = loadable(() => import('./helpers/Spinner'))
 
 function App() {

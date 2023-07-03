@@ -155,3 +155,52 @@
   80% { transform:translate(3%, 35%) }
   90% { transform:translate(-10%, 10%) }
 }
+
+.RMP-inner::before,
+    .RMP-inner::after {
+        content: "";
+        display: block;
+    }
+
+    .RMP-inner::before {
+        top: -11px;
+    }
+
+    .RMP-inner::after {
+        bottom: -11px;
+    }
+
+    .RMP-squeeze .RMP-inner {
+        transition-duration: 0.1s;
+        transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    .RMP-squeeze .RMP-inner::before {
+        transition: top 0.1s 0.14s ease,
+            opacity 0.1s ease;
+    }
+
+    .RMP-squeeze .RMP-inner::after {
+        transition: bottom 0.1s 0.14s ease,
+            transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    .RMP-squeeze.is-active .RMP-inner {
+        transform: rotate(45deg);
+        transition-delay: 0.14s;
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    .RMP-squeeze.is-active .RMP-inner::before {
+        top: 0;
+        opacity: 0;
+        transition: top 0.1s ease,
+            opacity 0.1s 0.14s ease;
+    }
+
+    .RMP-squeeze.is-active .RMP-inner::after {
+        bottom: 0;
+        transform: rotate(-90deg);
+        transition: bottom 0.1s ease,
+            transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
