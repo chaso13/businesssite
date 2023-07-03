@@ -40,7 +40,7 @@ import AwardSVG from "./Award.svg";
 import ComplexSVG from "./ComplexSite.svg";
 import LightSVG from "./Light-Bulb.svg";
 import CopySVG from "./CopyWrite.svg";
-import SeachSVG from "./Search.svg";
+import SearchSVG from "./Search.svg";
 import StandardSVG from "./StandardSite.svg";
 
 export {
@@ -86,6 +86,6 @@ export {
   ComplexSVG,
   LightSVG,
   CopySVG,
-  SeachSVG,
+  SearchSVG,
   StandardSVG,
 };

@@ -1,6 +1,8 @@
-import { svgPricing, moneyPlant, AwardSVG, ComplexSVG, LightSVG, CopySVG, SeachSVG, StandardSVG, } from '../assets';
+import { svgPricing, moneyPlant, AwardSVG, ComplexSVG, LightSVG, CopySVG, SearchSVG, StandardSVG } from '../assets';
 import styles, { layout } from '../style';
 import Accordion from '../components/Accordion/Accordion' ;
+import PriceIndicator from '../sections/Pricing/priceIndicator/priceIndicator' ;
+import SoSpecial from '../sections/Pricing/soSpecial/soSpecial';
 
 
 export default function Pricing() {
@@ -34,6 +36,8 @@ export default function Pricing() {
 
                     </div>
 
+           
+
 
                     {/*Budget Section */}
 
@@ -61,7 +65,7 @@ export default function Pricing() {
 
                     <div className='pt-[30vh]'>
                         <h3 className=' text-[22px] flex justify-center font-Jost leading-none font-semibold'> price indicators</h3>
-                        <div className='flex flex-row justify-center items-center w-full'>
+                        <div >
                             <h2 className=' text-[40px] flex justify-center font-crimsonPro leading-none font-semibold'> a rough idea of the required investment</h2>
                             <div className=' ml-[-670px] mt-[43px] w-[2.5rem] h-[2.5rem] bg-[#107bdf] rounded-[100%] z-[-1] absolute flex justify-center items-start whitespace-nowrap'></div>
                         </div>
@@ -73,145 +77,11 @@ export default function Pricing() {
                         </div>
                     </div>
 
-                    {/* Branding Price */}
-                    <div className='flex md:flex-row flex-col justify-center'>
-                        <div className='py-10 px-10'>
-                            <div className={layout.sectionImgReverse}>
-                                <img src={LightSVG} alt='Branding' className='max-w-[100%] height-[150px] relative z-[5]' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient' />
-                            </div>
+                    {/* Pricing Section */}
 
-                            <div className='text-center'>
-                                <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro `}> Branding</h2>
-                                <p className={`font-Jost font-light text-[18px] max-w-[470px] mt-5 text-justify xs:`}>
-                                    Your brand encompasses so much more than a mere logo. It embodies your true essence, your powerful message, and the irresistible appeal that draws visitors to collaborate with you. Luckily, our team excels at capturing and conveying that essence flawlessly. Our basic package, which includes strategy, logo design, and a comprehensive style guide, starts at $10k. However, pricing may increase based on the level of strategy and additional assets required.
-                                </p>
-                                <div className='font-Jost font-semibold text-[18px] py-5 '>
-                                    <h2> Range: </h2>
-                                    <h2> $10,000 to $30,000 </h2>
-                                </div>
-                            </div>
-                        </div>
+                    <PriceIndicator/>
 
-                        {/* Standard Sites Price */}
-
-                        <div className='py-10 px-10'>
-                            <div className={layout.sectionImgReverse}>
-                                <img src={StandardSVG} alt='Standard' className='max-w-[100%] height-[150px]relative z-[5]' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient' />
-                            </div>
-
-                            <div className='text-center'>
-                                <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> Standard Sites</h2>
-                                <p className={`font-Jost font-light text-[18px] max-w-[470px] mt-5 text-justify`}>
-                                    Are you looking to elevate your professionalism without requiring any extravagant website features? Our approach combines business experience, design expertise, and a strategic mindset to create websites that work like magic. Whether its generating leads, driving sales, or simply facilitating in-person selling, we have the skills to make it happen.
-                                </p>
-                                <div className='font-Jost font-semibold text-[18px] py-5 '>
-                                    <h2> Range: </h2>
-                                    <h2> $10,000 to $30,000 </h2>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    {/* Complex Sites Price */}
-
-                    <div className='flex md:flex-row flex-col justify-center'>
-
-                        <div className='py-10 px-10'>
-                            <div className={layout.sectionImgReverse}>
-                                <img src={ComplexSVG} alt='Complex' className='max-w-[100%] height-[150px] relative z-[5]' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient' />
-                            </div>
-                            <div className='text-center'>
-                                <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> Complex Sites </h2>
-                                <p className={`font-Jost font-light text-[18px] max-w-[470px] mt-5 text-justify`}>
-                                    Looking beyond the limitations of a basic brochure website, certain sites require more substantial functionality. Whether its e-commerce stores, membership platforms, learning systems, online courses, or anything else, when your website is your business, our expertise in development ensures that your business operates seamlessly as intended!
-                                </p>
-                                <div className='font-Jost font-semibold text-[18px] py-5 '>
-                                    <h2> Range: </h2>
-                                    <h2> $35,000 to $70,000 </h2>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    {/* Photography Price */}
-
-                    <div className='flex md:flex-row flex-col justify-center'>
-
-                        <div className='py-10 px-10'>
-                            <div className={layout.sectionImgReverse}>
-                                <img src={AwardSVG} alt='Photography' className='max-w-[100%] height-[150px] relative z-[5]' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient' />
-                            </div>
-
-                            <div className={`text-center`}>
-                                <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> Photography </h2>
-                                <p className={`font-Jost font-light text-[18px] max-w-[470px] mt-5 text-justify`}>
-                                    Our Premium Photography Packages are meticulously crafted to fulfill all your photography needs with exceptional quality and creativity. This service encompasses professional, high-resolution photoshoots perfect for personal, commercial, or corporate use.
-                                </p>
-                                <div className='font-Jost font-semibold text-[18px] py-5 '>
-                                    <h2> Range: </h2>
-                                    <h2> $1,800 to $3,600 </h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Website Copy Price */}
-
-                        <div className='py-10 px-10'>
-                            <div className={layout.sectionImgReverse}>
-                                <img src={CopySVG} alt='Copy' className='max-w-[100%] height-[150px] relative z-[5]' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient' />
-                            </div>
-
-                            <div className={`text-center`}>
-                                <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> Website Copy</h2>
-                                <p className={`font-Jost font-light text-[18px] max-w-[470px] mt-5 text-justify`}>
-                                    Professional copywriting is the key differentiator between visually appealing websites and truly impactful ones. We will extract all the rich goodness from your mind dont worry, it wont hurt, we promise and transform it into compelling words that inspire your visitors to take action.
-                                </p>
-                                <div className='font-Jost font-semibold text-[18px] py-5 '>
-                                    <h2> Cost: </h2>
-                                    <h2> $300 per page </h2>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    {/* SEO Price */}
-
-                    <div className='flex md:flex-row flex-col justify-center'>
-
-                        <div className='py-10 px-10'>
-                            <div className={layout.sectionImgReverse}>
-                                <img src={SeachSVG} alt='SEO' className='max-w-[100%] height-[150px] relative z-[5]' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient' />
-                                <div className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient' />
-                            </div>
-
-                            <div className={`text-center`}>
-                                <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> SEO</h2>
-                                <p className={`font-Jost font-light text-[18px] max-w-[470px] mt-5 text-justify`}>
-                                    If youre seeking to expand your online business, SEO can revolutionize your lead generation. Our team is dedicated to adhering to proper guidelines to elevate your sites rankings, without resorting to shortcuts.
-                                </p>
-                                <div className='font-Jost font-semibold text-[18px] py-5 '>
-                                    <h2> Range: </h2>
-                                    <h2> $2,000 to $3,500 per/month </h2>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                    
 
                     {/*Why WebAmbrosia section*/}
 
@@ -231,8 +101,12 @@ export default function Pricing() {
 
                     {/* Why Grid Section Start 3x2*/}
                     {/*Grid Row 1 md:*/}
+          
+                    <SoSpecial/>
+        
+                    {/*
                     <div className='flex md:flex-row flex-col justify-center gap-11 xs:px-[12vw]  md:px-[0vw]'>
-                        {/* Experience grid item */}
+                        {/* Experience grid item 
                         <div className='py-10 px-10'>
                             <div className={`text-center`}>
                                 <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> crazy experienced </h2>
@@ -241,7 +115,7 @@ export default function Pricing() {
                                 </p>
                             </div>
                         </div>
-                        {/* Custom Design grid item*/}
+                        {/* Custom Design grid item
                         <div className='py-10 px-10'>
                             <div className={`text-center`}>
                                 <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> original design only </h2>
@@ -250,7 +124,7 @@ export default function Pricing() {
                                 </p>
                             </div>
                         </div>
-                        {/* Full Service grid item */}
+                        {/* Full Service grid item 
                         <div className='py-10 px-10'>
                             <div className={`text-center`}>
                                 <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> complete service </h2>
@@ -261,9 +135,9 @@ export default function Pricing() {
                         </div>
 
                     </div>
-                    {/*Grid Row 2 md:*/}
+                    {/*Grid Row 2 md:
                     <div className='flex md:flex-row flex-col justify-center gap-11 xs:px-[12vw] md:px-[0vw]'>
-                        {/* Maximum Effort grid item */}
+                        {/* Maximum Effort grid item 
                         <div className='py-10 px-10'>
                             <div className={`text-center`}>
                                 <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> maximum effort </h2>
@@ -272,7 +146,7 @@ export default function Pricing() {
                                 </p>
                             </div>
                         </div>
-                        {/* Small and Dedicated grid item */}
+                        {/* Small and Dedicated grid item 
                         <div className='py-10 px-10'>
                             <div className={`text-center`}>
                                 <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> small and dedicated </h2>
@@ -281,7 +155,7 @@ export default function Pricing() {
                                 </p>
                             </div>
                         </div>
-                        {/* Latest Technology grid item */}
+                        {/* Latest Technology grid item 
                         <div className='py-10 px-10'>
                             <div className={`text-center`}>
                                 <h2 className={`text-[32px] text-center font-semibold text-gradient font-crimsonPro`}> latest technology </h2>
@@ -292,6 +166,9 @@ export default function Pricing() {
                         </div>
 
                     </div>
+
+
+                */}
 
                     {/* The Proposal Process section Start*/}
                     <div >
@@ -320,19 +197,11 @@ export default function Pricing() {
                         </div>
                     </div>
 
-                     {/* Accordion Section */}
-                    <div className={layout.sectionInfo} >
-                        <div className='py-10 px-10'>
-                            <h2 className='font-crimsonPro text-[40px] font-semibold leading-none'> frequently asked questions </h2>
-                            <h3 className='font-Jost text-[22px] font-medium leading-none'> here are some answers to the questions we get the most.</h3>
-                            <div className=' ml-[-30px] mt-[-70px] w-[2.5rem] h-[2.5rem] bg-[#107bdf] rounded-[100%] z-[-1] absolute flex justify-center items-start whitespace-nowrap'></div>
-                            
-                        </div>
-                        <div className='py-10 px-10'>
-                            <Accordion/>
-                        </div>
-                    </div>
-
+                     {/* Accordion Section */} 
+                     
+                     <div className='py-10 px-10'>
+                         <Accordion/>
+                     </div>
 
                     {/*Final Thoughts*/}
 
