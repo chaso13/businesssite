@@ -29,7 +29,7 @@ function App() {
     >
       <HelmetProvider>
         <Router>
-          <div>
+          <div className=' max-w-[100vw] overflow-hidden'>
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />

@@ -13,10 +13,12 @@ const AccordionItem = ({ faq }) => {
   };
 
   return (
+
+    
     <li className={`accordion_item ${clicked ? "active" : ""} font-crimsonPro font-medium text-[28px] py-2 text-left`}>
       <button className="button" onClick={handleToggle}>
         {question}
-        <span className="control font-crimsonPro font-medium text-[28px]">{clicked ? "—" : "+"} </span>
+        <span className="control font-crimsonPro font-medium text-[28px] ">{clicked ? "-" : "+"} </span>
       </button>
 
       <div
