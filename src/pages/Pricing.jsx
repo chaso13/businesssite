@@ -101,9 +101,9 @@ export default function Pricing() {
 
                     {/* Why Grid Section Start 3x2*/}
                     {/*Grid Row 1 md:*/}
-
+          
                     <SoSpecial/>
-                    
+        
                     {/*
                     <div className='flex md:flex-row flex-col justify-center gap-11 xs:px-[12vw]  md:px-[0vw]'>
                         {/* Experience grid item 

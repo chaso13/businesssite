@@ -1,8 +1,8 @@
 import React from 'react'
 import styles, { layout } from '../../../style';
 
-const SoSpecialItem = (soSpecial) => {
-    const {title, content} = soSpecial;
+const SoSpecialItem = ({soSpecial}) => {
+    const { title , content } = soSpecial;
   
     return (
        

@@ -37,7 +37,7 @@ export const priceIndicators = [
 
     {
       image:LightSVG,
-      alt:"Branding Image",
+      alt: "Branding Image",
       title: "Branding",
       description: "Your brand encompasses so much more than a mere logo. It embodies your true essence, your powerful message, and the irresistible appeal that draws visitors to collaborate with you. Luckily, our team excels at capturing and conveying that essence flawlessly. Our basic package, which includes strategy, logo design, and a comprehensive style guide, starts at $10k. However, pricing may increase based on the level of strategy and additional assets required." ,
       range: "$10,000 to $30,000"
