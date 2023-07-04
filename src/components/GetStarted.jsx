@@ -1,6 +1,6 @@
 
 import styles from '../style';
-import {arrowUpBlack} from '../assets';
+import { arrowUpBlack } from '../assets';
 
 const GetStarted = () => (
 
@@ -10,14 +10,14 @@ const GetStarted = () => (
         <p className='font-sansserif font-medium text-[18px] leading-[23px] mr-2'>
           <span>Get</span>
         </p>
-        <img src={arrowUpBlack} className='w-[23px] h-[23px] object-contain fill-black  ' alt='arrow'/>
+        <img src={arrowUpBlack} className='w-[23px] h-[23px] object-contain fill-black  ' alt='arrow' />
       </div>
       <p className='font-poppins font-medium text-[18px] leading-[23px]'>
-          <span>Started</span>
-        </p>
+        <span>Started</span>
+      </p>
     </div>
   </div>
-  
+
 )
 
 export default GetStarted
