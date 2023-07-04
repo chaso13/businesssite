@@ -1,4 +1,4 @@
-import { AwardSVG, ComplexSVG, LightSVG, CopySVG, SearchSVG, StandardSVG } from '/Users/chaseheavner/Documents/businesssite/src/assets';
+import { AwardSVG, ComplexSVG, LightSVG, CopySVG, SearchSVG, StandardSVG } from '../../../assets';
 
 
 export const soSpecials = [

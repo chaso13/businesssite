@@ -7,7 +7,7 @@ import SoSpecialItem from "./soSpecialItem";
   
   return (
     
-    <div className={` grid md:grid-cols-3 grid-cols-1 place-content-center  `}>
+    <div className={` grid md:grid-cols-3 grid-cols-1 place-content-center `}>
         
         {soSpecials.map((soSpecial, index) => (
             <SoSpecialItem key={index} soSpecial={soSpecial} />
