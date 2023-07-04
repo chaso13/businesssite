@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Location from '../assets/Location.svg'
+import Phone from '../assets/Phone.svg'
+import Email from '../assets/Email.svg'
 
 export default function Footer2() {
     return (
@@ -78,7 +81,7 @@ export default function Footer2() {
                             get in touch
                         </h4>
                         <div class="flex flex-row mt-[10px] mb-[20px] ">
-                            <img id="image-394-26" alt="" src="https://thrive.design/wp-content/uploads/2022/02/Location.svg" class="ct-image footer-icon mt-[5px] mr-[20px] h-[18px] " />
+                            <img id="image-394-26" alt="" src={Location} class="ct-image footer-icon mt-[5px] mr-[20px] h-[18px] " />
                             <a id="link-293-26" class="ct-link" href="https://www.google.com/maps?ll=47.658456,-122.316262&amp;z=16&amp;t=m&amp;hl=en&amp;gl=US&amp;mapclient=embed&amp;cid=52640744039676028" target="_self">
                                 <div id="text_block-289-26" class="ct-text-block text-link">
                                     Thrive Design
@@ -92,7 +95,7 @@ export default function Footer2() {
                             </a>
                         </div>
                         <div class="flex flex-row mt-[10px] mb-[20px] ">
-                            <img id="image-396-26" alt="" src="https://thrive.design/wp-content/uploads/2022/02/Phone.svg" class="ct-image footer-icon mt-[5px] mr-[20px] h-[18px] " />
+                            <img id="image-396-26" alt="" src={Phone} class="ct-image footer-icon mt-[5px] mr-[20px] h-[18px] " />
                             <a id="link-297-26" class="ct-link" href="tel:2064517326" target="_self">
                                 <div id="text_block-298-26" class="ct-text-block text-link">
                                     (206) 451-7326
@@ -101,7 +104,7 @@ export default function Footer2() {
                             </a>
                         </div>
                         <div class="flex flex-row mt-[10px] mb-[20px] ">
-                            <img id="image-398-26" alt="" src="https://thrive.design/wp-content/uploads/2022/02/Email.svg" class="ct-image footer-icon mt-[5px] mr-[20px] h-[18px] " />
+                            <img id="image-398-26" alt="" src={Email} class="ct-image footer-icon mt-[5px] mr-[20px] h-[18px] " />
                             <a id="link-301-26" class="ct-link" href="mailto:hello@thrive.design" target="_self">
                                 <div id="text_block-302-26" class="ct-text-block text-link">
                                     hello@thrive.design
