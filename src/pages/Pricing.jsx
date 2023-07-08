@@ -1,4 +1,4 @@
-import { svgPricing, moneyPlant, AwardSVG, ComplexSVG, LightSVG, CopySVG, SearchSVG, StandardSVG } from '../assets';
+import { svgPricing, moneyPlant } from '../assets';
 import styles, { layout } from '../style';
 import Accordion from '../components/Accordion/Accordion' ;
 import PriceIndicator from '../sections/Pricing/priceIndicator/priceIndicator' ;
@@ -49,7 +49,7 @@ export default function Pricing() {
                             <p className='block max-w-[986px] mt-5 font-Jost text-[18px]'>
                                 While your budget is important, what matters even more is obtaining a website that effectively achieves your goals and generates a positive return on investment. </p>
                             <br />
-                            <p className='block max-w-[986px] font-Jost text-[18px]'>Thats why, at Thrive, our primary focus is on strategy and ensuring your project aligns with your sales and marketing efforts. If we believe we cannot generate a substantial return on investment, we will not undertake your project.
+                            <p className='block max-w-[986px] font-Jost text-[18px]'>Thats why, at Web Ambrosia, our primary focus is on strategy and ensuring your project aligns with your sales and marketing efforts. If we believe we cannot generate a substantial return on investment, we will not undertake your project.
                             </p>
                         </div>
 
