@@ -69,6 +69,11 @@ const CarePlans = () => {
 
                         <WhyGrid/>
 
+                        <div className={`${layout.sectionInfo} py-[10vh]`}>
+                            <h3 className='font-Jost text-[22px] font-semibold leading-none'> whats included </h3>
+                            <h2 className='font-crimsonPro text-[40px] font-semibold leading-none'> website maintenance<br /> plan features</h2>
+                        </div>
+
                         <WhatGrid/>
 
 
