@@ -6,8 +6,8 @@ import Email from '../assets/Email.svg'
 
 export default function Footer2() {
     return (
-        <section id="section-254-26" class=" ct-section">
-            <div class="ct-section-inner-wrap px-[20px] pb-[30px] pt-[120px] ">
+        <section>
+            <div className="ct-section-inner-wrap px-[20px] pb-[30px] pt-[120px] ">
                 <div id="new_columns-256-26" class="ct-new-columns flex md:flex-row flex-col ">
                     <div id="div_block-257-26" class="ct-div-block md:w-[40%] w-[100%] pr-[10%] py-[20px] pl-[20px] ">
                     <a className="flex flex-row" href="/" target="_self">

@@ -43,15 +43,14 @@ function App() {
               <Route path="/backend-support/" element={<BackendSupport />} />
               <Route path="/care-plans/" element={<CarePlans />} />
 
-              <Route path="/blueprint/" element={<Proto />} />
               <Route path="/case-studies/" element={<Proto />} />
-              <Route path="/blog/" element={<Proto />} />
-              <Route path="/web-ambrosia-client-support/" element={<Proto />} />
               <Route path="/case-studies/" element={<Proto />} />
               <Route path="/case-studies/:id" element={<WorkItem />} />
+
               <Route path="/privacy-policy/" element={<Proto />} />
               <Route path="/terms-of-service/" element={<Proto />} />
               <Route path="/accessibility-statement/" element={<Proto />} />
+              
               <Route path="/start-a-project/" element={<Proto />} />
 
             </Routes>

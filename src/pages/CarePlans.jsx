@@ -688,9 +688,11 @@ export default function CarePlans() {
                                                     </h3>
                                                     <p>
                                                         I had been updating my own plugins for years with at least 3 times a year my website blowing up due to plugin and other software conflicts. Happy to have Thrive Design take care of all that nonsense for me so that I can focus on my business.</p><div class="wpmtst-testimonial-content  testimonial-content" data-infinite-loop="false">
-                                                        <p><strong>Sheryl Trim
-                                                            <br />
-                                                        </strong>
+                                                        <p>
+                                                            <strong>
+                                                                Sheryl Trim
+                                                                <br />
+                                                            </strong>
                                                             <strong>
                                                                 Viviane Woodard
                                                             </strong>
