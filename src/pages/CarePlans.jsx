@@ -4,6 +4,7 @@ import loadable from '@loadable/component'
 import { svgPricing, moneyPlant } from '../assets';
 import WhyGrid from '../sections/CarePlans/whyGrid/WhyGrid';
 import WhatGrid from '../sections/CarePlans/whatGrid/WhatGrid';
+import Accordion from '../sections/CarePlans/Accordion/Accordion';
 
 const Intro = loadable(() => import('../sections/Universal/Intro'))
 const ScrollForMore = loadable(() => import('../sections/Universal/ScrollForMore'))
@@ -76,28 +77,15 @@ const CarePlans = () => {
 
                         <WhatGrid/>
 
+                        <Accordion/>
 
-                        {/* Pricing components section start */}
 
-                        <div className='pt-[30vh]'>
-                        <h3 className=' text-[22px] flex justify-center font-Jost leading-none font-semibold'> price indicators</h3>
-                        <div >
-                            <h2 className=' text-[40px] flex justify-center font-crimsonPro leading-none font-semibold'> a rough idea of the required investment</h2>
-                            <div className=' ml-[-670px] mt-[43px] w-[2.5rem] h-[2.5rem] bg-[#107bdf] rounded-[100%] z-[-1] absolute flex justify-center items-start whitespace-nowrap'></div>
-                        </div>
+                    {/* Care plan pricing and bullet list section */}
 
-                        <div className='flex justify-center'>
-                            <p className='max-w-[980px] mt-5 flex text-center text-[18px] font-Jost'>
 
-                            Regardless of its impact, your website constantly represents your business, functioning tirelessly every moment of every day, all year long (including an additional day during leap years). Considering the substantial investment you've made to ensure your website effectively showcases your business, why would you overlook its maintenance once it's constructed?
-
-                            Essential tasks like ensuring security, optimizing performance, conducting continuous monitoring, performing regular backups, and more are crucial to keep your website secure and up to date. With the escalating number of hacking attempts worldwide occurring every second, websites are now facing unprecedented risks of compromise.
-
-                            By enrolling in our care plan, we can provide the necessary assistance for any WordPress support you require, as well as fulfill your feature requests.
-
-                            </p>
-                        </div>
-                    </div>
+                    {/* faq section start*/}
+                    
+                       
 
                 </div>
             </div>
