@@ -2,7 +2,8 @@ const { fontFamily } = require("tailwindcss/defaultTheme")
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  darkMode: ["class"],
+  content: ["./index.html", "./src/**/*.{js,jsx}","app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -202,20 +203,6 @@ export default {
       lg: "1200px",
       xl: "1700px",
     },
-  },
-  plugins: [require("tailwindcss-animate")],
-
-};
-
-
-
-
-const { fontFamily } = require("tailwindcss/defaultTheme")
-
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  darkMode: ["class"],
-  content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
   theme: {
     container: {
       center: true,
@@ -356,5 +343,6 @@ module.exports = {
       
     },
   },
- 
+},
 }
+
