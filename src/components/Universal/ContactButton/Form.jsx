@@ -31,16 +31,18 @@ export default function Form() {
 
     }
   return (
-    <section id="section-6-381" >
-        <div class="ct-section-inner-wrap  py-[30px] bg-white shadow-xl rounded px-8 pt-6 pb-8 mb-4">
+    <section id="section-6-381" className="w-full max-w-lg grid place-items-center" >
+        <div className=" bg-slate-400 opacity-60 backdrop-filter backdrop-blur-xl w-[100vw] h-[100vh] z-[-1] left-0 top-0 fixed">
+        </div>
+        <div class=" py-[30px] bg-white shadow-xl rounded px-8 pt-6 pb-8 ">
                 <div id="div_block-14-381" class=" p-[20px] ">
                     <div id="shortcode-15-381" class="">
-                        <div class="flex flex-wrap -mx-3 mb-6" >
+                        <div>
                             <form onSubmit={onSubmit} className="">
                                 <div class="frm_form_fields ">
 
                                         <div className="">
-                                            <div className="flex flex-row w-[100%]">
+                                            <div className="flex flex-wrap -mx-3 mb-6">
                                                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0 ">
                                                     <label className="block text-gray-700 text-sm font-bold mb-2">
                                                         Name <span className="" aria-hidden="true">*</span>
@@ -75,7 +77,7 @@ export default function Form() {
                                                     />
                                                 </div>
                                             </div>
-                                            <div className="flex flex-row">
+                                            <div className="flex flex-wrap -mx-3 mb-6">
                                             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0 ">
                                                     <label for="field_30tzg" id="field_30tzg_label" class="block text-gray-700 text-sm font-bold mb-2">Phone Number
                                                         <span class="frm_required" aria-hidden="true"></span>
@@ -112,13 +114,13 @@ export default function Form() {
 
                                                 </div>
                                             </div>
-                                            <div className="flex flex-wrap -mx-3 mb-6 ">
+                                            <div className="flex flex-wrap -mx-3 mb-6">
                                                 <div id="" class=" w-full px-3 ">
                                                     <label for="field_9jv0r12" id="field_9jv0r12_label" class="block text-gray-700 text-sm font-bold mb-2">Message
                                                         <span class="frm_required" aria-hidden="true"></span>
                                                     </label>
                                                     <textarea
-                                                        className=" ml-[20px] mt-[10px] border-b-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                                        className="border-b-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                                         name="message"
                                                         value={message}
                                                         id="field_9jv0r12"
@@ -129,7 +131,7 @@ export default function Form() {
                                                     />
                                                 </div>
                                             </div>
-                                            <div class="frm_submit pt-[30px] pl-[65%]">
+                                            <div class="frm_submit pt-[10px] pl-[50%]">
                                                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                                                     Send Message &gt;&gt;
                                                 </button>
