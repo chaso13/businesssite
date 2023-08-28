@@ -18,7 +18,7 @@ const ContactButton = () => {
       onClick={toggle ? '' : handler}
       className={
         toggle ?
-          `${styles.flexCenter} shadow-xl  rounded-lg w-[70vw] h-[70vh] bg-[#117BDF] fixed bottom-[15vh] right-[15vw] z-[150] content-center transition-all duration-200` :
+          `${styles.flexCenter} fixed bottom-[5vh] right-[25vw] z-[150] content-center transition-all duration-200` :
           `${styles.flexCenter} cursor-pointer rounded-full h-[65px] w-[65px] bg-[#117BDF] fixed bottom-6 right-6 z-[150] content-center transition-all duration-200`
       }
     >

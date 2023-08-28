@@ -31,44 +31,22 @@ export default function Form() {
 
     }
   return (
-    <section id="section-6-381" class=" ct-section">
-        <div class="ct-section-inner-wrap px-[40px] py-[30px] ">
-            <div id="new_columns-7-381" class="ct-new-columns grid grid-cols-2">
-                <div id="div_block-8-381" class="ct-div-block py-[20px] pl-[20px] pr-[40px] h-[100%] ">
-                    <div id="div_block-9-381" class="ct-div-block p-[40px] bg-black text-white ">
-                        <div id="_rich_text-17-381" class="oxy-rich-text ">
-                            <p>Call: <a class="reverse-link" href="tel:2064517326">(206) 451-7326</a>
-                                <br />
-                                Email: <a class="reverse-link" href="mailto:hello@thrive.design">hello@thrive.design</a>
-                            </p>
-                        </div>
-                        <div id="text_block-11-381" class="ct-text-block mt-[20px] ">
-                            For the best results, use this form to have the appropriate team members get in touch.
-                            <br />
-                        </div>
-                        <div id="div_block-12-381" class="ct-div-block w-[60px] h-[60px] absolute ">
-                            <div id="fancy_icon-13-381" class="ct-fancy-icon">
-                                <svg id="svg-fancy_icon-13-381">
-                                    <use xlink:href="#ThriveThemeFilesicon-Arrow"></use>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="div_block-14-381" class="ct-div-block p-[20px] ">
-                    <div id="shortcode-15-381" class="ct-shortcode">
-                        <div class="frm_forms " >
+    <section id="section-6-381" >
+        <div class="ct-section-inner-wrap  py-[30px] bg-white shadow-xl rounded px-8 pt-6 pb-8 mb-4">
+                <div id="div_block-14-381" class=" p-[20px] ">
+                    <div id="shortcode-15-381" class="">
+                        <div class="flex flex-wrap -mx-3 mb-6" >
                             <form onSubmit={onSubmit} className="">
                                 <div class="frm_form_fields ">
 
-                                        <div className=" ">
+                                        <div className="">
                                             <div className="flex flex-row w-[100%]">
-                                                <div className="flex flex-col w-[50%] mb-[30px] ">
-                                                    <label className="">
+                                                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0 ">
+                                                    <label className="block text-gray-700 text-sm font-bold mb-2">
                                                         Name <span className="" aria-hidden="true">*</span>
                                                     </label>
                                                     <input
-                                                        className="px-[20px] py-[10px] ml-[20px] mt-[10px] border-b-2 border-black"
+                                                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                                         type="text"
                                                         name="name"
                                                         value={name}
@@ -79,13 +57,13 @@ export default function Form() {
                                                         aria-invalid="false"
                                                     />
                                                 </div>
-                                                <div className="flex flex-col w-[50%] mb-[30px] ">
-                                                    <label for="field_1l11w" id="field_1l11w_label" class="frm_primary_label">
+                                                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0  ">
+                                                    <label for="field_1l11w" id="field_1l11w_label" class="block text-gray-700 text-sm font-bold mb-2">
                                                         Email
                                                         <span class="frm_required" aria-hidden="true">*</span>
                                                     </label>
                                                     <input
-                                                        className="px-[20px] py-[10px] ml-[20px] mt-[10px] border-b-2 border-black"
+                                                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                                         type="email"
                                                         name="email"
                                                         value={email}
@@ -98,12 +76,12 @@ export default function Form() {
                                                 </div>
                                             </div>
                                             <div className="flex flex-row">
-                                            <div className="flex flex-col w-[50%] mb-[30px] ">
-                                                    <label for="field_30tzg" id="field_30tzg_label" class="frm_primary_label">Phone Number
+                                            <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0 ">
+                                                    <label for="field_30tzg" id="field_30tzg_label" class="block text-gray-700 text-sm font-bold mb-2">Phone Number
                                                         <span class="frm_required" aria-hidden="true"></span>
                                                     </label>
                                                     <input
-                                                        className="px-[20px] py-[10px] ml-[20px] mt-[10px] border-b-2 border-black"
+                                                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                                         type="text"
                                                         id="field_30tzg"
                                                         name="item_meta[8]"
@@ -115,13 +93,13 @@ export default function Form() {
 
 
                                                 </div>
-                                                <div className="flex flex-col w-[50%] mb-[30px] ">
-                                                    <label for="field_re7x0" id="field_re7x0_label" class="frm_primary_label">
+                                                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0 ">
+                                                    <label for="field_re7x0" id="field_re7x0_label" class="block text-gray-700 text-sm font-bold mb-2">
                                                         Website
                                                         <span class="frm_required" aria-hidden="true"></span>
                                                     </label>
                                                     <input
-                                                        className="px-[20px] py-[10px] ml-[20px] mt-[10px] border-b-2 border-black"
+                                                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                                         type="text"
                                                         id="field_re7x0"
                                                         name="website"
@@ -134,13 +112,13 @@ export default function Form() {
 
                                                 </div>
                                             </div>
-                                            <div className="flex flex-row ">
-                                                <div id="frm_field_5_container" class="frm_form_field form-field  frm_top_container frm_full flex flex-col w-[100%] ">
-                                                    <label for="field_9jv0r12" id="field_9jv0r12_label" class="frm_primary_label">Message
+                                            <div className="flex flex-wrap -mx-3 mb-6 ">
+                                                <div id="" class=" w-full px-3 ">
+                                                    <label for="field_9jv0r12" id="field_9jv0r12_label" class="block text-gray-700 text-sm font-bold mb-2">Message
                                                         <span class="frm_required" aria-hidden="true"></span>
                                                     </label>
                                                     <textarea
-                                                        className="px-[20px] py-[10px] ml-[20px] mt-[10px] border-b-2 border-black"
+                                                        className=" ml-[20px] mt-[10px] border-b-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                                         name="message"
                                                         value={message}
                                                         id="field_9jv0r12"
@@ -151,8 +129,8 @@ export default function Form() {
                                                     />
                                                 </div>
                                             </div>
-                                            <div class="frm_submit">
-                                                <button className="" type="submit">
+                                            <div class="frm_submit pt-[30px] pl-[65%]">
+                                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                                                     Send Message &gt;&gt;
                                                 </button>
                                             </div>
@@ -164,7 +142,6 @@ export default function Form() {
                 </div>
             </div>
             <div id="div_block-16-381" class="ct-div-block bigleftcircle motion-medium" style={{ translate: 'none', rotate: 'none', scale: 'none', transition: 'unset', transform: 'translate(1.26%, -1.26%) translate3d(0px, 0px, 0px)' }}></div>
-        </div>
     </section>
   )
 }
