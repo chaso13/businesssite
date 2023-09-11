@@ -9,8 +9,8 @@ export default function Pricing() {
     return (
 
         <section >
-            <div className={`${styles.paddingX}`}>
-                <div className={`${styles.boxWidth}`}>
+            <div className={`${styles.paddingX} grid place-items-center`}>
+                <div className={`${styles.boxWidth} `}>
 
                     {/*Hero section start for Pricing */}
                     <div className='flex md:flex-row flex-col pb-[10vh]'>

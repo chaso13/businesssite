@@ -13,7 +13,7 @@ const CarePlans = () => {
     return (
         <section>
 
-             <div className={`${styles.paddingX}`}>
+             <div className={`${styles.paddingX} grid place-items-center`}>
                 <div className={`${styles.boxWidth}`}>
 
                     {/*Hero section start for Pricing */}

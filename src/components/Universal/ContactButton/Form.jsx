@@ -32,7 +32,7 @@ export default function Form() {
     }
   return (
     <section id="section-6-381" className="w-full max-w-lg grid place-items-center" >
-        <div className=" bg-slate-400 opacity-60 backdrop-filter backdrop-blur-xl w-[100vw] h-[100vh] z-[-1] left-0 top-0 fixed">
+        <div className=" bg-slate-500 opacity-60 backdrop-filter backdrop-blur-xl w-[100vw] h-[100vh] z-[-1] left-0 top-0 fixed">
         </div>
         <div class=" py-[30px] bg-white shadow-xl rounded px-8 pt-6 pb-8 ">
                 <div id="div_block-14-381" class=" p-[20px] ">
@@ -72,7 +72,7 @@ export default function Form() {
                                                         placeholder="Email address?"
                                                         data-reqmsg="This field cannot be blank."
                                                         aria-required="true"
-                                                        data-invmsg="Email is invalid"
+                                                        data-invmsg="Email address is invalid"
                                                         aria-invalid="false"
                                                     />
                                                 </div>
@@ -89,7 +89,7 @@ export default function Form() {
                                                         name="item_meta[8]"
                                                         value=""
                                                         placeholder="Phone number?"
-                                                        data-invmsg="Phone is invalid"
+                                                        data-invmsg="Phone number is invalid"
                                                         aria-invalid="false"
                                                     />
 
