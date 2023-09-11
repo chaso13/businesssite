@@ -27,9 +27,9 @@ const ContactButton = () => {
           src={contactSVG}
           className={toggle ? `select-none hidden` : `select-none flex`} />
         {toggle ?
-          <div className="flex flex-col relative">
+          <div className="flex flex-col relative overflow-hidden">
             <div className="flex">
-              <div className=" text-center justify-around h-[40px] w-[40px] rounded-full flex flex-row absolute right-[50px]  pl-[2px] hover:scale-110 bg-[#ffffff]" onClick={handler}>
+              <div className=" text-center justify-around h-[40px] w-[40px] rounded-full flex flex-row absolute right-[20px]  pl-[2px] hover:scale-110 bg-[#ffffff]" onClick={handler}>
                 <h1 className=" text-[#117BDF] h-[40px] w-[40px]  rotate-45 text-[40px] leading-[35px]  cursor-pointer  self-center">+</h1>
               </div>
             </div>
